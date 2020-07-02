@@ -27,7 +27,8 @@ ASSIGN the variable named myFirstVariable with the data type null
 */
 
 var myFirstVariable;
-
+myFirstVariable= null
+console.log(myFirstVariable);
 /*
 QUESTION 2
 
@@ -39,7 +40,8 @@ Assign it to a BOOLEAN data type
 var mySecondVariable;
 
 // YOUR CODE HERE
-
+mySecondVariable= true
+console.log(mySecondVariable);
 /*
 QUESTION 3
 
@@ -50,7 +52,8 @@ ASSIGN mythirdVar to equal to a string with the text ==>  hello world
 var myThirdVar;
 
 // YOUR CODE HERE
-
+myThirdVar= 'hello world'
+console.log(myThirdVar);
 /*
 QUESTION 4
 
@@ -61,7 +64,8 @@ ASSIGN myFourthVar to equal to a string with the text ==> This Is Case Sensitive
 var myFourthVar;
 
 // YOUR CODE HERE
-
+myFourthVar= 'This Is Case Sensitive'
+console.log(myFourthVar);
 /*
 QUESTION 5
 
@@ -73,7 +77,7 @@ ASSIGN myAge to your age, use the number data type
 var myAge;
 
 // YOUR CODE HERE
-
+myAge=100
 /*
 QUESTION 6
 
@@ -87,7 +91,8 @@ i.e. + - / *
 var myAgeCalc = null;
 
 // YOUR CODE HERE
-
+myAgeCalc= 100 * 4 / 4 + 0
+console.log(myAgeCalc) 
 /*
 QUESTION 7 (THE LAST QUESTION)
 
@@ -103,7 +108,8 @@ refer to lecutre about expressions
 var numExpression;
 
 // YOUR CODE HERE
-
+var numExpression= (1 + 5) * 4
+console.log(numExpression)
 /*
 TEST SECTION, PLEASE DO NOT TOUCH
 
