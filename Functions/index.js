@@ -17,7 +17,10 @@ CREATE A FUNCTION THAT RETURNS THE BOOLEAN true
 
 */
 
-function example() {}
+function example() {
+  return true
+}
+console.log(example());
 
 /*
 QUESTION 1
@@ -28,7 +31,9 @@ CREATE A FUNCTION THAT RETURNS THE BOOLEAN false
 
 function firstFunction() {
   // YOUR CODE HERE
+  return false
 }
+console.log(firstFunction);
 
 /*
 QUESTION 2
@@ -39,8 +44,9 @@ CREATE A FUNCTION THAT RETURNS THE STRING 'hello world'
 
 function helloWorld() {
   // YOUR CODE HERE
+  return 'hello world'
 }
-
+console.log(helloWorld());
 /*
 QUESTION 3
 
@@ -53,10 +59,11 @@ YOU WILL HAVE TO EDIT THE FUNCTION DECLARATION (the line where the key word 'fun
 
 */
 
-function question3(param) {
+function question3(str) {
   // YOUR CODE HERE
+  return 'it is a string'
 }
-
+console.log(question3);
 /*
 QUESTION 4
 
@@ -68,10 +75,12 @@ concatQuestion('blake') ===> 'hello blake'
 
 */
 
-function concatQuestion(str) {
+function concatQuestion(name) {
   // YOUR CODE HERE
+  var name = name
+  return 'hello ' + name
 }
-
+console.log('Blake');
 /*
 QUESTION 5
 
@@ -86,7 +95,9 @@ subtraction(1, 2) ===> -1
 
 function subtraction(num1, num2) {
   // YOUR CODE HERE
+  return num1 - num2
 }
+console.log(subtraction(8,3))
 
 /*
 QUESTION 6
@@ -102,7 +113,9 @@ multiplication(2, 0) ===> 0
 
 function multiplication(num1, num2) {
   // YOUR CODE HERE
+  return num1 * num2
 }
+console.log(multiplication(3,4));
 
 /*
 QUESTION 7
@@ -118,8 +131,10 @@ square(4) ===> 16
 
 function square(num) {
   // YOUR CODE HERE
+  var num = num
+  return num * num
 }
-
+console.log(square(5));
 /*
 QUESTION 8
 
@@ -131,14 +146,24 @@ e.g.
 
 */
 
-var answerToQuestion8;
-
-function question8() {
+var answerToQuestion8= 'we can save return values in variables';
+//console.log(answerToQuestion8);
+ function answerToQuestion8(question8) {
   // YOUR CODE HERE
-}
+    
+// return answerToQuestion8    
+  return answerToQuestion8.string()
+  }
+  //console.log(answerToQuestion8);
+  //var answerToQuestion8 =  question8;
+//console.log(answerToQuestion8.length);
+  var question8 = answerToQuestion8;
 
-answerToQuestion8 = question8();
+console.log(question8.length)
 
+
+
+console.log(question8([]));
 /*
 TEST SECTION, PLEASE DO NOT TOUCH
 
