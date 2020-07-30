@@ -40,12 +40,12 @@ Assign it to a BOOLEAN data type
 var mySecondVariable;
 
 // YOUR CODE HERE
-mySecondVariable= true
+mySecondVariable= false
 console.log(mySecondVariable);
 /*
 QUESTION 3
 
-ASSIGN mythirdVar to equal to a string with the text ==>  hello world
+ASSIGN myThirdVar to equal to a string with the text ==>  hello world
 
 */
 
@@ -103,7 +103,7 @@ refer to lecutre about expressions
 
 */
 
-(1 + 5) * 4;
+//(1 + 5) * 4;
 
 var numExpression;
 
